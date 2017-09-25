@@ -24,6 +24,9 @@ class Perceptron(object):
 
     def fit(self, X, y):
         """
+        Perceptron classifier for binary
+        classification problems.
+        
         Parameters
         --------------------
         X - data
@@ -58,6 +61,9 @@ class Perceptron(object):
 
 class PerceptronOvA(object):
     """
+    Perceptron classifier for multiclass problems,
+    using the One-vs.-All method.
+    
     Parameters
     --------------------
     eta - learning rate
@@ -67,7 +73,6 @@ class PerceptronOvA(object):
     --------------------
     w_ - weights after fitting
     b_ - bias after fitting
-    errors_ - number of misclassifications in every epoch
     """
 
     def __init__(self, eta=0.01, n_epochs=10):
