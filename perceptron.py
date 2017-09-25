@@ -7,6 +7,9 @@ from sklearn.preprocessing import LabelBinarizer
 
 class Perceptron(object):
     """
+    Perceptron classifier for binary
+    classification problems.
+
     Parameters
     --------------------
     eta - learning rate
