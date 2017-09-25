@@ -27,9 +27,6 @@ class Perceptron(object):
 
     def fit(self, X, y):
         """
-        Perceptron classifier for binary
-        classification problems.
-        
         Parameters
         --------------------
         X - data
